@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #f1f1f1;
+    color: #0f141e;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: gray;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 1);
+}
+
+.info {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+    }
+
+.info-text {
+        margin-left: 40px;
+    }
+    
+    .info p {
+        color: #86898f;
+        margin: 0;
+        font-style: italic;
+        font-weight: normal;
+        text-decoration: none;
+    }
+
+    .container {
+        max-width: 750px; /*Можно также соображать в процентах. Например: 100% - означает что сайт будет занимать всю страницу. В данном же случае он занимает указаный размер*/
+        margin: auto; /*Указывает место рассположения сайта. Auto - означает что блок сайта находиться по середине страницы*/
+        padding-top: 10px;
+        }
+
+
+.bg-gray {
+    background: #cacaca;
+}
+
+.bg-blue {
+    background: #6b9cff;
+}
+
+.card {
+    position: relative;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.bg-gray {
+    margin-top: 20px;
+}
+
+.church {
+    position: absolute;
+width: 235px;
+box-shadow: 4px 4px 14px rgba(0, 0, 0, 1);
+right: 25px;
+}
+
+.kiev {
+    position: absolute;
+    width: 235px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 1);
+    bottom: 20px;
+    right: 25px;
+    }
+
+.table {
+    max-width: 475px;
+}
+
